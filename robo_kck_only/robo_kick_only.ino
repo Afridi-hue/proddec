@@ -25,8 +25,8 @@ void setup() {
     pinMode(mc,OUTPUT);
     pinMode(mac,OUTPUT);
     Serial.begin(9600);
-    digitalWrite(mac,0);
-    digitalWrite(mc,0); 
+    digitalWrite(mac,0);    //turn off motor
+    digitalWrite(mc,0);     //turn off motor
 }
  
 void loop() {
