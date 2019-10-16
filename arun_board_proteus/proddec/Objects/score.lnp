@@ -1,0 +1,4 @@
+".\Objects\score1.obj",
+".\Objects\counter2.obj" 
+TO ".\Objects\score" 
+PRINT(".\Listings\score.m51") CODE( 0X0000-0X0FFF )
